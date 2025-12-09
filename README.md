@@ -1,14 +1,25 @@
 # 🎨 AIA - 学术插图助手
 
-[English](#english) | 中文
+<div align="center">
 
-一个基于 AI 的学术图表自动生成工具，帮助研究人员快速创建 CVPR/NeurIPS 标准的学术插图。
+[English](#english) | 简体中文
 
-## 🌐 在线体验
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
-**👉 [https://aia-academic-illustrator.vercel.app](https://aia-academic-illustrator.vercel.app)**
+**✨ AI 驱动的学术图表自动生成工具**
 
-> 纯前端应用，无需后端服务器，数据安全（BYOK 模式）
+支持 GPT-5.1 / DeepSeek / Gemini 等多种模型
+
+[在线体验](https://aia-academic-illustrator.vercel.app) / [本地部署](#-本地开发) / [问题反馈](https://github.com/qwwzdyj/AIA-Academic-Illustrator-/issues)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
+
+</div>
+
+---
 
 ![效果图](./screenshot.png)
 
@@ -34,12 +45,11 @@
 
 ## 🛠️ 技术栈
 
-- **Next.js 15** (App Router)
-- **React 18** + TypeScript
-- **Tailwind CSS** + Shadcn/UI
-- **Zustand** (状态管理)
-- **PDF.js** (浏览器端 PDF 处理)
-- **OpenAI SDK** (API 调用)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-brown?style=flat-square)
 
 ## 🚀 本地开发
 
@@ -65,30 +75,40 @@ npm run dev
 
 ## 🌐 自行部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
-
 > 注意：部署时需要设置 Root Directory 为 `frontend`
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
 
 ## 📄 许可证
 
-MIT License
+[MIT License](./LICENSE)
 
 ---
 
 <a name="english"></a>
+
+<div align="center">
+
 # 🎨 AIA - Academic Illustrator Agent
 
-[中文](#) | English
+[简体中文](#) | English
 
-An AI-powered academic diagram generation tool for researchers.
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
-## 🌐 Live Demo
+**✨ AI-Powered Academic Diagram Generation Tool**
 
-**👉 [https://aia-academic-illustrator.vercel.app](https://aia-academic-illustrator.vercel.app)**
+Supports GPT-5.1 / DeepSeek / Gemini and more
 
-> Pure frontend app with BYOK (Bring Your Own Key) - Your data stays secure
+[Live Demo](https://aia-academic-illustrator.vercel.app) / [Local Deploy](#-local-development) / [Issues](https://github.com/qwwzdyj/AIA-Academic-Illustrator-/issues)
 
-![Screenshot](./screenshot.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
+
+</div>
+
+---
 
 ## ✨ Features
 
@@ -121,10 +141,10 @@ Visit http://localhost:3000
 
 ## 🌐 Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
-
 > Note: Set Root Directory to `frontend` when deploying
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/qwwzdyj/AIA-Academic-Illustrator-)
 
 ## 📄 License
 
-MIT License
+[MIT License](./LICENSE)
