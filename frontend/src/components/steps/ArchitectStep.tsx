@@ -57,7 +57,7 @@ async function convertPdfToImages(file: File): Promise<string[]> {
         await page.render({
             canvasContext: context,
             viewport: viewport,
-        }).promise;
+        } as Parameters<typeof page.render>[0]).promise;
 
         // Convert canvas to base64 PNG
         const imageData = canvas.toDataURL('image/png');
