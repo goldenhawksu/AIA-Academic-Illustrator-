@@ -10,7 +10,7 @@ import { RendererStep } from '@/components/steps/RendererStep';
 import { useWorkflowStore } from '@/store/workflowStore';
 import { AnimatePresence, motion } from 'framer-motion';
 import { LandingPage } from '@/components/LandingPage';
-import { SparklesCore } from '@/components/ui/sparkles';
+
 
 export default function Home() {
   const { currentStep, _hasHydrated } = useWorkflowStore();
