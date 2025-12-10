@@ -1,4 +1,4 @@
-![AIA Logo](frontend/image.png)
+[![AIA Logo](frontend/image.png)](https://aia-academic-illustrator.vercel.app)
 
 <div align="center">
 
@@ -21,7 +21,7 @@
 
 ---
 
-![效果图](./screenshot.png)
+![效果图](frontend/image%20copy.png)
 
 ## ✨ 功能特点
 
