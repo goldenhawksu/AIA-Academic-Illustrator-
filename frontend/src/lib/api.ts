@@ -307,8 +307,9 @@ async function renderImageGoogleNative(
         });
 
         // Extract image from response
-        if (response.candidates && response.candidates[0].content.parts) {
-            for (const part of response.candidates[0].content.parts) {
+        const parts = response.candidates?.[0]?.content?.parts;
+        if (parts) {
+            for (const part of parts) {
                 if (part.inlineData && part.inlineData.data) {
                     const base64Image = part.inlineData.data;
                     const mimeType = part.inlineData.mimeType || 'image/png';
